@@ -1,9 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEditor.PackageManager;
 using UnityEngine;
-
+[SelectionBase]
 public class Player : MonoBehaviour
 {
     public static Player instance { get; private set; }

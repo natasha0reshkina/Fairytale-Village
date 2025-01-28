@@ -5,295 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vsconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Enemy/Enemy.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Enemy/Run.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Player/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Player/Run.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingDown.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingEntry.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingUp.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/Sword.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/Gizmos/NavMeshLink Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/Gizmos/NavMeshModifierVolume Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/Gizmos/NavMeshSurface Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/Gizmos/NavMeshSurface2d Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/Gizmos/NavMeshSurfaceGears Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/AgentOverride2dEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/CollectSources2dEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/CollectSourcesCache2dEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshAgentAttributePropertyDrawer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshAreaAttributePropertyDrawer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshAssetManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshLinkEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshModifierEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshModifierTilemapEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Editor/RootSources2dEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/AgentOverride2d.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/AgentRotate2d.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/AgentRotateSmooth2d.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/CollectSources2d.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/CollectSourcesCache2d.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/CollectTilemapSourcesCache2d.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshAgentAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshAreaAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshBuilder2d.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshBuilderState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshComponents.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshExtensionsProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshLink.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshModifier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshModifierTilemap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshModifierVolume.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/NavMeshSurface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/RootSources2d.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/RotateAgentInstantly.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/NavMeshComponents/Scripts/RotateAgentSmoothly.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/Unity/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/Unity/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/navmeshplus.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NavMeshPlus-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayerInputAction/New Controls.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayerInputAction/PlayerInputActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayerInputAction/PlayerInputActions.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Pixel_Woods_Tileset_0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Sword.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyNav.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/GameInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerVisual.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordVisual.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/read.me" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Lit2DSceneTemplate.scenetemplate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Renderer2D.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Scenes/read.me" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemy/Mushroom with VFX/Mushroom-Attack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemy/Mushroom with VFX/Mushroom-AttackWithStun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemy/Mushroom with VFX/Mushroom-Die.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemy/Mushroom with VFX/Mushroom-Hit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemy/Mushroom with VFX/Mushroom-Idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemy/Mushroom with VFX/Mushroom-Run.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemy/Mushroom with VFX/Mushroom-Stun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/PixelPreset.preset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Pixel_Woods_Tileset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Shadows/Shadows_Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Weapon/Slash Effect Flipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Weapon/Slash Effect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Weapon/Sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/character.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/saved.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/saved/NavMesh-NavMeshSurface.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/MemorySettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/URP2DSceneTemplate.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/--invert-paths" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/0781768605376dbd689aa6be704a32fe.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/07e4275e93bdfafb968c284023fc9820.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/09b7e62b6967857733265802bdf8dc79.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/0ad51b0a4cdc4732c12aaa2644f46ab1.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/0bbc16e64e118ef7240c57f9f6c0578e.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/0ccec1f58febc9bc1d3f969de381d037.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/0fb0ceb263209656b8ea977b7b059a49.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/10fcbea22543c5442693fd8a7d25c17e.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/11ce385ef2ad07f7710380c5130b3691.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/1352b19bc91ac7d0697183b5fea907c0.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/153a7fc2c89a5cfcc520a9ea2cb729d4.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/16cf436503ef8bccba8ca71239fe8d68.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/178be1946b4117305dc73ec19b3dc61c.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/18fa6933645151a17239f4542b29a793.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/1900b0aE.dag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/1900b0aE.dag.payloads" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/1900b0aE.dag_derived" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/1adc87708a5ffe50510eca7d21a08e1d.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/1b32dd62c44741036c1a7c4dfd861a5f.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/1cca87f842d313a71ecf513afd6faf79.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/1d38b024c8d094c9839b576b52389513.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/2325da8d4e17f33b5a2073be4bbfb968.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/26c9b7ddb2eebf466f92b447d0b63e5e.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/276f060065e14adaac79fb5f2d94dbfa.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/2830dcabb592d77fbb71e4dc65fffd27.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/29a668d13ade55efce6892c303d6c21f.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/2d42f49b1f21c2c4390d96eb7c164ec4.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/2dc400ef5d33d5914a44f846f60487e9.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/2f1232b2ead62f32c162e4747424d0ab.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/310b72de717d9b4b95e00f776461f6e0.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/3210b8dc97de69b84d87c8b927882b1f.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/32aa603427a9f5453ea901c2a06a21f6.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/3aa7767756913884e27019266e846ff5.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/3dc5897da031517a8d5ab0e81f722310.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/401b658e1d3a9b2447ddcdf1719fe083.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/408cd4a290c7c13b57d05638f468e037.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/4258b758518b3e2b3020cff3a9542d05.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/42fb5e00e5ed806e79050c5cb1ed6a88.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/4862290ce952a2fe0daa6c3eaee3941d.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/4a11bc8a23c1cfa0f4923becd8b6a98b.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/4a191caa7337186a11b049c559f20323.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/4cd2067a9c7035b9e3fe2ec28d0b2ace.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/4cd74eefd3689e79969d5b8315fb5369.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/4e1557a53d4ca661921e6c11908065a9.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/4eaed8e030c246f2557ec486e9b74a33.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/4f8485eefbf689cb20208000b340e7ba.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/513a943cde2a66ca2f6807350c3f7b02.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/527ffd46d715c015ae4ead1a4a1dcbf6.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/52ab6eb192105452d4b5f129a6078337.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/5319bc4e3f218b40998ecb12de1e034e.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/53a447354fede0803cf639cd158afe68.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/53d1e474e75fae906f1a9bf8e23c7ac9.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/578f95c23f54735d59acd8368b111a58.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/5eb303d952db304b4cfa95d3bc9732a9.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/5ed5015b734bdfe5c2aa268fb2708b8c.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/5ef4265955fadbfb7e8c2d4d944067c5.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/5fb8689756f9661bab48920da07cd44a.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/6456d937994de7c720ef487bb1bf66e8.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/64ba29752589bbd63499969b2a5563ef.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/6556ca66b6215fe82dcb592c5fde9668.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/693ebca2389ab83073e490d273fecad0.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/6a6c2918ee441d72b8305bfbab102e5f.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/6adb55aac4fba72e0374a7d4e39d474f.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/6bacc24f8fbd0569ff1b62fefb1417dc.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/6c10d3a2e8f9cdfc505d056c8a777469.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/6f7af1391cd58c283e53b9168de1c79a.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/70eb39d339ec82225226c785818905c8.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/7137a5c6727cd39587d613225befd2da.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/7283a08c884572ccf1c628106c3d5d97.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/7322ae7f772efb7e9693c08271a6f2c3.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/73bd93db7a0ee5bdbe167a19b44ce084.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/752df4531c239a27dad49269001b67b0.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/75745a22b2b24b4888098c63010cba71.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/75a522154c959a58afb8cc1810b79d52.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/7e942a22b38f526f2248703e4a43decd.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/7f27a09ca4cd88d44d52a6ab36200fee.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/82498bc5c17bc5a48f5a2dea1fb2b9e9.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/8262a0c5a737acb51f187b979f8f1cdb.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/83ff772e1a0f887f8f7e3062935407d1.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/84de82e8a5355f694967fb82c478b359.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/8560308bb80ef3c0e46a28c4d3290973.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/863b94390255051efa675ad42b819026.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/870b822777e4fe63520e4a3a53179608.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/875b3e2512e379b43c399e9524a28999.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/884aca2c643c62d26e43bae87904707e.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/88f24d168e99e02023014456a6f41c1b.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/8bd375117381c8f40ed1fc10f10e1697.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/91f01785a774a9aa53d05cf833db32c1.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/93070c9fa6a98f9db1d74bb880c49d86.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/93b34e3e57ed63d7141cff3daca95296.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/94164f054a5e151ff37e4f846f4746a9.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/956ee2690c47100590d45898f5cbd54f.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/9abcd854fd63ed8e9eceb5239fe39d47.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/9c53d1adad94ad02b3f2930c4ac7f801.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/9ef1acec82284b592e2382d67f6f635b.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/ArtifactDB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/ArtifactDB-lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/BurstCacheManifest.cm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/EditorEncounteredVariants" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/SourceAssetDB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/SourceAssetDB-lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/TundraBuildState.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/a110ffe6b760e4b56cb86ae44bc7857d.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/a123de796804036935b9ae9812afd840.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/a22a9737319f6e5eb4fa9372b98a6a64.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/a2a3e0a59749c039f1062ac4fff1a7f1.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/a4f402cc65118dbeab04cbf157e3a8a2.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/a91d0786b9474e3609d675a9a9aee326.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/b18848a788ca5347ce18210a703f2d41.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/b50a116d4a44c867d7822d832977ec10.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/b535913a76a8e8f66cc957c08bc67b67.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/b5a8b82fb2ea8a4fe15a99f97c43bb66.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/b7f47f13896d5bcfaf18d53200ddfe1c.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/b7f696d99c87374c8e03ed9819188d70.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/bb4344f2c11df2aed29f6000b4d931f6.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/bc87e58ba24635792321e7265ba7c5c5.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/be670e090ff3e42fb24aaadc6942ac7a.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/bea0074b31db28e834d1990c1cf95dba.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/beb497e134b24e0d443f6a91ee099283.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/beceab8afacc46b55a2754c784654711.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/befdae3f37b3d00eeab79e36cdae5994.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/c18595ec66b5d2d8a90beeeeae8aef29.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/c233388d277f5ceac00c17832b7e94ce.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/c2a23f44a5662aa84e9ce05a03a5c697.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/c5d506b44419285ad6822a8fa221b7b5.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/c6749f40e05781087eb92649725e2f6f.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/c75411d6c58ed2e6f50e4a0bd8c8aa06.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/c86ed7598bd91057bc1f5b7c62af9475.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/cb4abc99a62bbaa9a47e7fe7408c3e3d.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/cbfa0d30e784f2701908ad0942ce6b4a.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/cdc929ca52e9eb6366d4545785192ff2.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/ced6bfa883062bd20fb00d5eeab758d6.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/d1296ca3af6e44593c168c43940a3f99.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/d24234e42151c002a09739749e44c545.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/d2f8887bb2062a8459c6fce8082cc57b.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/d5d121a504569cd0eb001978768f7020.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/d6734df423820d852989e35945ed6175.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/d71b25183a6f63c074ba42366213df7a.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/d8063d0c2ebb142d8be0526aa6bfe83c.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/d9b613d566aa4f5d49db1ef4214a0cf2.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/dbbff5cc3b8363831c1c094b2d96216a.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/de36d1b10946410fb830c6cadce25c5f.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/e280f7a2a7bd4e990528db890a95b139.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/e331c7b1fa5090f90a7bd7c89ae8bb33.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/e5839e5ce3b2a41642c944e1439224ed.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/e6ea515db6858c722f3b50ec2affdf86.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/e7fceaab916b3ed638ca31b812ac05a1.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/e81f7d00c5ff9ada70bf1defd0993a6f.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/eb364122ee1dc2b0b93a6d697e6f7eaa.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/eb5762c176c563408800b67be30a9bca.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/f1b9c62948ad793479a2eea513614212.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/f5644a455b9096a951a1b87dcab83460.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/f657a4be385749c5121ff3a802f9959d.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/f8e8a471abfc72cc0b911ed026fa966e.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/fb14704039381f30d928fd31c2b68446.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/fb9c2c2a84979eec9812b9bf3874aad2.bhc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/transactions.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025,_18_41_[Changes]/tundra.digestcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/shelf/Uncommitted_changes_before_Update_at_18_01_2025__18_41__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingDown.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingDown.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingUp.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingUp.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Sword.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Sword.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/saved.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/saved.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,9 +36,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyNav.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/GameInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/nataliiaoreshkina/Downloads/Fairytale Village-1/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/nataliiaoreshkina/Downloads/Fairytale Village-1/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -403,6 +121,9 @@
       <workItem from="1737382893885" duration="704000" />
       <workItem from="1737472985970" duration="15289000" />
       <workItem from="1737814069750" duration="12900000" />
+      <workItem from="1737829101748" duration="6227000" />
+      <workItem from="1737919842146" duration="3000" />
+      <workItem from="1738071175247" duration="6160000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
@@ -420,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737827306341</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed unnecessary files">
+      <option name="closed" value="true" />
+      <created>1737829148837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737829148837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +178,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="перешла на мак" />
     <MESSAGE value="Добавила атаку персонажу и врагов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавила атаку персонажу и врагов" />
+    <MESSAGE value="Removed unnecessary files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
