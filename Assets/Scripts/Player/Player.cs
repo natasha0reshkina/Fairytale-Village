@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 {
     public static Player instance { get; private set; }
     [SerializeField] private float movingSpeed = 10f;
-     Vector2 inputVector;
+    Vector2 inputVector;
     
     private Rigidbody2D rb;
     private float minMovingSpeed = 0.1f;

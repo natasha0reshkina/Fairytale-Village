@@ -7,6 +7,7 @@ public class SwordVisual : MonoBehaviour
 {   [SerializeField] private int damageamount = 2;
     [SerializeField] private Sword sword;
     private Animator animator;
+    public event EventHandler SwordSwing;
     private const string attack = "Attack";
     public PolygonCollider2D polygonCollider2D;
     private void Awake()
@@ -17,7 +18,7 @@ public class SwordVisual : MonoBehaviour
 
     private void Start()
     {
-        sword.OnSwordSwing += Sword_Swordswing;
+        sword.SwordSwing += Sword_Swordswing;
     }
 
     private void Sword_Swordswing(object sender, System.EventArgs e)
@@ -28,9 +29,24 @@ public class SwordVisual : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("ударились");
         if (collision.transform.TryGetComponent(out EnemyLife enemyLife))
         {
             enemyLife.TakeDamage(damageamount);
         }
+    }
+
+    public void Attack()
+    {
+        SwordSwing?.Invoke(this, EventArgs.Empty);
+    }
+    public void StartAttack()
+    {
+        sword.ColliderOn();
+    }
+
+    public void EndAttack()
+    {
+        sword.ColliderOff();
     }
 }

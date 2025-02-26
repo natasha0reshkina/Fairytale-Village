@@ -15,10 +15,11 @@ public class SwordSlashVisual : MonoBehaviour
     
     private void Start()
     {
-        sword.OnSwordSwing += Sword_Swordswing;
+        sword.SwordSwing += Sword_Swordswing;
     }
     private void Sword_Swordswing(object sender, System.EventArgs e)
     {
+        Debug.Log("SwordSwing event received!");
         animator.SetTrigger(attack);
         
     }

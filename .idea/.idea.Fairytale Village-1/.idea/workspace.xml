@@ -8,9 +8,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingDown.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingDown.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingUp.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwingUp.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwordSlashDown.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwordSlashDown.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwordSlashUp.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Weapon/Sword/SwordSlashUp.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Sword.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapon/Sword.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyNav.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyNav.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordSlashVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordSlashVisual.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordVisual.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/saved.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/saved.unity" afterDir="false" />
     </list>
@@ -38,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyNav.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/GameInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/nataliiaoreshkina/Downloads/Fairytale Village-1/Assets/Scripts/Weapons/ActiveWeapon.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -123,7 +131,11 @@
       <workItem from="1737814069750" duration="12900000" />
       <workItem from="1737829101748" duration="6227000" />
       <workItem from="1737919842146" duration="3000" />
-      <workItem from="1738071175247" duration="6160000" />
+      <workItem from="1738071175247" duration="11813000" />
+      <workItem from="1738418613704" duration="242000" />
+      <workItem from="1738419444251" duration="20330000" />
+      <workItem from="1740402680459" duration="13819000" />
+      <workItem from="1740530475562" duration="2806000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
@@ -149,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737829148837</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавила визуальную составляющую удара (разрез воздуха). Начала описание нанесения урона">
+      <option name="closed" value="true" />
+      <created>1738095850633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738095850634</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +199,8 @@
     <MESSAGE value="перешла на мак" />
     <MESSAGE value="Добавила атаку персонажу и врагов" />
     <MESSAGE value="Removed unnecessary files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary files" />
+    <MESSAGE value="Добавила визуальную составляющую удара (разрез воздуха). Начала описание нанесения урона" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила визуальную составляющую удара (разрез воздуха). Начала описание нанесения урона" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
