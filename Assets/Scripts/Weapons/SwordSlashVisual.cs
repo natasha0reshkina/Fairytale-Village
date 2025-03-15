@@ -22,6 +22,8 @@ public class SwordSlashVisual : MonoBehaviour
         Debug.Log("SwordSwing event received!");
         animator.SetTrigger(attack);
         
+        
+
     }
     
 }

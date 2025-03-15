@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="">
+    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавили деревню и расписали монеты">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Pixel_Woods_Tileset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/character.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Money/Destroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Money/Destroy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Money/Money.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Money/Money.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordSlashVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordSlashVisual.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/saved.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/saved.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/saved/NavMesh-NavMeshSurface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/saved/NavMesh-NavMeshSurface.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyNav.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/ChangeEnemyToMoney.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/Money.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/GameInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -129,7 +130,7 @@
       <workItem from="1738419444251" duration="20330000" />
       <workItem from="1740402680459" duration="13819000" />
       <workItem from="1740530475562" duration="3335000" />
-      <workItem from="1741615141863" duration="4779000" />
+      <workItem from="1741615141863" duration="21136000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
@@ -171,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740533960686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавили деревню и расписали монеты">
+      <option name="closed" value="true" />
+      <created>1741695002665</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741695002665</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +212,9 @@
     <MESSAGE value="Removed unnecessary files" />
     <MESSAGE value="Добавила визуальную составляющую удара (разрез воздуха). Начала описание нанесения урона" />
     <MESSAGE value="Добавили нанесение урона и смерть врага" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавили нанесение урона и смерть врага" />
+    <MESSAGE value="Добавили деревню и расписали начальную работу с монетками" />
+    <MESSAGE value="Добавили деревню и расписали монеты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавили деревню и расписали монеты" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
