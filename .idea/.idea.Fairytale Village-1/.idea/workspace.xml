@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="">
+    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавила разрушение и починку дома за деньги">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/NewBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/NewBehaviourScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/saved.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/saved.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/saved/NavMesh-NavMeshSurface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/saved/NavMesh-NavMeshSurface.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +29,10 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/nataliiaoreshkina/Downloads/Fairytale Village-1/Assets/Scripts/Enemy/EnemyLife.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyNav.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Main Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/ChangeEnemyToMoney.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/Money.cs" root0="FORCE_HIGHLIGHTING" />
@@ -138,7 +133,7 @@
       <workItem from="1742407027543" duration="23000" />
       <workItem from="1742408426266" duration="129000" />
       <workItem from="1742408803992" duration="9000" />
-      <workItem from="1742728682799" duration="8926000" />
+      <workItem from="1742728682799" duration="12230000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
@@ -196,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742032593787</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавила разрушение и починку дома за деньги">
+      <option name="closed" value="true" />
+      <created>1742831631742</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742831631742</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +234,8 @@
     <MESSAGE value="Добавили деревню и расписали начальную работу с монетками" />
     <MESSAGE value="Добавили деревню и расписали монеты" />
     <MESSAGE value="Добавили выброс монетки при убийстве врага и их обсчет" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавили выброс монетки при убийстве врага и их обсчет" />
+    <MESSAGE value="Добавила разрушение и починку дома за деньги" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила разрушение и починку дома за деньги" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
