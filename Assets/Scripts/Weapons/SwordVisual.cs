@@ -34,6 +34,10 @@ public class SwordVisual : MonoBehaviour
         {
             enemyLife.TakeDamage(damageamount);
         }
+        if (collision.transform.TryGetComponent(out House house))
+        {
+            house.Fix();
+        }
     }
 
     public void Attack()

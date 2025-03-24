@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Money
+  - House
   layers:
   - Default
   - TransparentFX

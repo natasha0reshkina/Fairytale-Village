@@ -33,6 +33,12 @@ public class Sword : MonoBehaviour
             Debug.Log("Damage applied!");
             enemyLife.TakeDamage(damageAmount);
         }
+
+        if (collision.transform.TryGetComponent(out House house))
+        {
+            Debug.Log("Оп оп оп");
+            house.Fix();
+        }
     }
 
     public void ColliderOff()

@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class EnemyLife : MonoBehaviour
 {
-    public  Sprite enemy;
-    public  GameObject money;
+    public Sprite enemy;
+    public GameObject money;
     public static SpriteRenderer spriteRenderer;
     [SerializeField] private int maxHealth;
     [SerializeField] private int currentHealth;

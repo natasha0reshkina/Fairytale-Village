@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавили выброс монетки при убийстве врага и их обсчет" />
+    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/NewBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/NewBehaviourScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/SwordVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/saved.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/saved.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/saved/NavMesh-NavMeshSurface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/saved/NavMesh-NavMeshSurface.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -26,13 +36,14 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyNav.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/ChangeEnemyToMoney.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/nataliiaoreshkina/Downloads/Fairytale Village-1/Assets/Scripts/Money/Destroy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/Money.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/GameInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -124,6 +135,10 @@
       <workItem from="1740402680459" duration="13819000" />
       <workItem from="1740530475562" duration="3335000" />
       <workItem from="1741615141863" duration="21749000" />
+      <workItem from="1742407027543" duration="23000" />
+      <workItem from="1742408426266" duration="129000" />
+      <workItem from="1742408803992" duration="9000" />
+      <workItem from="1742728682799" duration="8926000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
