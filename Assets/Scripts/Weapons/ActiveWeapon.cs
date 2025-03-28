@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ActiveWeapon : MonoBehaviour
 {
-    public static ActiveWeapon Instance{ get; private set; }
+    public static ActiveWeapon Instance { get; private set; }
+
     [SerializeField] private Sword sword;
 
     private void Awake()
@@ -14,23 +15,28 @@ public class ActiveWeapon : MonoBehaviour
 
     private void Update()
     {
-        MouseFollowing();
+        FollowPlayerDirection();
     }
+
     public Sword GetActiveWeapon()
     {
         return sword;
     }
-    private void MouseFollowing()
+
+    private void FollowPlayerDirection()
     {
-        Vector3 mousePos = GameInput.instance.GetMousePosition();
-        Vector3 playerPosition = Player.instance.GetPlayerScreenPosition();
-        if(mousePos.x < playerPosition.x)
+        Vector2 moveDir = Player.instance.GetMoveDirection();
+
+     
+        if (moveDir.x < 0)
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.rotation = Quaternion.Euler(0, 180, 0); 
         }
-        else
+        else if (moveDir.x > 0)
         {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.rotation = Quaternion.Euler(0, 0, 0); 
         }
+
+        
     }
 }

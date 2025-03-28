@@ -27,7 +27,8 @@ public class Sword : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log($"Collision with: {collision.name}"); 
+        Debug.Log($"Collision with: {collision.name}");
+
         if (collision.transform.TryGetComponent(out EnemyLife enemyLife))
         {
             Debug.Log("Damage applied!");
@@ -36,10 +37,11 @@ public class Sword : MonoBehaviour
 
         if (collision.transform.TryGetComponent(out House house))
         {
-            Debug.Log("Оп оп оп");
-            house.Fix();
+            Debug.Log("Обнаружен дом для починки");
+            HouseRepairUI.ShowRepairButton(house);
         }
     }
+
 
     public void ColliderOff()
     {

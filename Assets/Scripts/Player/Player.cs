@@ -1,19 +1,21 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using UnityEditor.PackageManager;
 using UnityEngine;
 [SelectionBase]
 public class Player : MonoBehaviour
 {
     public static Player instance { get; private set; }
+
     [SerializeField] private float movingSpeed = 10f;
-    Vector2 inputVector;
-    
+
+    private Vector2 inputVector;
+    private Vector2 lastMoveDirection;
+
     private Rigidbody2D rb;
     private float minMovingSpeed = 0.1f;
     private bool isRunning = false;
+
     private void Awake()
     {
         instance = this;
@@ -25,7 +27,7 @@ public class Player : MonoBehaviour
         GameInput.instance.OnPlayerAttack += GameInput_OnPlayerAttack;
     }
 
-    private void GameInput_OnPlayerAttack(object sender, System.EventArgs e)
+    private void GameInput_OnPlayerAttack(object sender, EventArgs e)
     {
         ActiveWeapon.Instance.GetActiveWeapon().Attack();
     }
@@ -33,18 +35,25 @@ public class Player : MonoBehaviour
     private void Update()
     {
         inputVector = GameInput.instance.GetMovementVector();
+
+        // Обновляем последнее направление, только если есть ввод
+        if (inputVector != Vector2.zero)
+        {
+            lastMoveDirection = inputVector;
+        }
     }
-    
-    
+
     private void FixedUpdate()
     {
         HandleMovement();
     }
+    
+
     private void HandleMovement()
     {
-        
         rb.MovePosition(rb.position + inputVector * (movingSpeed * Time.fixedDeltaTime));
-        if(Mathf.Abs(inputVector.x) > minMovingSpeed || Mathf.Abs(inputVector.y) > minMovingSpeed)
+
+        if (Mathf.Abs(inputVector.x) > minMovingSpeed || Mathf.Abs(inputVector.y) > minMovingSpeed)
         {
             isRunning = true;
         }
@@ -52,15 +61,20 @@ public class Player : MonoBehaviour
         {
             isRunning = false;
         }
-
     }
+
     public bool IsRunning()
     {
         return isRunning;
     }
+
     public Vector3 GetPlayerScreenPosition()
     {
-        Vector3 playerScreenPosition = Camera.main.WorldToScreenPoint(transform.position);
-        return playerScreenPosition;
+        return Camera.main.WorldToScreenPoint(transform.position);
+    }
+
+    public Vector2 GetMoveDirection()
+    {
+        return lastMoveDirection;
     }
 }

@@ -9,27 +9,33 @@ public class PlayerVisual : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private const string CheckRun = "CheckRun";
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
+
     private void Update()
     {
         animator.SetBool(CheckRun, Player.instance.IsRunning());
         AdjustPlayerFacingDirection();
     }
+
     private void AdjustPlayerFacingDirection()
     {
-        Vector3 mousePos = GameInput.instance.GetMousePosition();
-        Vector3 playerPosition = Player.instance.GetPlayerScreenPosition();
-        if(mousePos.x < playerPosition.x)
+  
+        Vector2 moveDir = Player.instance.GetMoveDirection();
+
+ 
+        if (moveDir.x < 0)
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = true;  
         }
-        else
+        else if (moveDir.x > 0)
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = false; 
         }
+ 
     }
 }
