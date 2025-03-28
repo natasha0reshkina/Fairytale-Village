@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавила меню">
+    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавили плавное движение камеры за персонажем и кнопку для починки дома">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/House/House.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/House/House.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Sword.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money/Money.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/GameInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/ActiveWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/nataliiaoreshkina/Downloads/Fairytale Village-1/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
@@ -142,7 +137,7 @@
       <workItem from="1742407027543" duration="23000" />
       <workItem from="1742408426266" duration="129000" />
       <workItem from="1742408803992" duration="9000" />
-      <workItem from="1742728682799" duration="32052000" />
+      <workItem from="1742728682799" duration="35725000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
@@ -216,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742859122176</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Добавили плавное движение камеры за персонажем и кнопку для починки дома">
+      <option name="closed" value="true" />
+      <created>1743162678477</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743162678477</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +256,8 @@
     <MESSAGE value="Добавили выброс монетки при убийстве врага и их обсчет" />
     <MESSAGE value="Добавила разрушение и починку дома за деньги" />
     <MESSAGE value="Добавила меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавила меню" />
+    <MESSAGE value="Добавили плавное движение камеры за персонажем и кнопку для починки дома" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавили плавное движение камеры за персонажем и кнопку для починки дома" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

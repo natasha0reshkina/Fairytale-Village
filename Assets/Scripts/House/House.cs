@@ -21,6 +21,7 @@ public class House : MonoBehaviour
             Money.money -= 100; // списываем деньги
             spriteRenderer.sprite = fixedHouse; // меняем спрайт на починенный
             Debug.Log("Дом починен!");
+            HealthBar.HP = HealthBar.MaxHealth; ;
         }
         else
         {
