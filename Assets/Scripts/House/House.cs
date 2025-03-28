@@ -5,6 +5,7 @@ public class House : MonoBehaviour
 {
     public Sprite brokenHouse;
     public Sprite fixedHouse;
+    public static int unfixed = 5; 
 
     private SpriteRenderer spriteRenderer;
 
@@ -21,7 +22,8 @@ public class House : MonoBehaviour
             Money.money -= 100; // списываем деньги
             spriteRenderer.sprite = fixedHouse; // меняем спрайт на починенный
             Debug.Log("Дом починен!");
-            HealthBar.HP = HealthBar.MaxHealth; ;
+            HealthBar.HP = HealthBar.MaxHealth;
+            unfixed -= 1;
         }
         else
         {

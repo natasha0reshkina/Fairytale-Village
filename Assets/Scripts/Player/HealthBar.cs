@@ -2,36 +2,68 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
     Image healthBar;
-    public static float MaxHealth = 100f;  // Максимальное здоровье
-    public static float HP;  // Текущее здоровье
-    public float decreaseRate = 0.1f;  // Очень медленное уменьшение здоровья в секунду
+    public static float MaxHealth = 100f;  
+    public static float HP;  
+    public float decreaseRate = 0.4f;  
 
+    public string nextSceneName = "NextScene";  
+    public string nextSceneWinName = "NextScene";  
     void Start()
     {
         healthBar = GetComponent<Image>();
-        HP = MaxHealth;  // Устанавливаем начальное значение здоровья равным MaxHealth
-        Debug.Log("Начальное здоровье: " + HP);  // Проверка начального значения здоровья
+        HP = MaxHealth; 
     }
 
     void Update()
     {
-        // Уменьшаем здоровье с учетом времени (очень медленно)
+        
         HP -= decreaseRate * Time.deltaTime;
 
-        // Ограничиваем здоровье, чтобы оно не стало меньше 0
-        if (HP < 0)
+
+        if (HP <= 0)
         {
             HP = 0;
+       
+            LoadNextScene();
+        }
+        else if (House.unfixed == 0)
+        {
+            LoadNextWinScene();
         }
 
-        // Обновляем визуальное отображение здоровья
-        healthBar.fillAmount = HP / MaxHealth;
 
-        // Проверка значений HP для отладки
-        Debug.Log("Текущее здоровье: " + HP);
+        healthBar.fillAmount = HP / MaxHealth;
+    }
+
+
+    void LoadNextScene()
+    {
+        House.unfixed = 5;
+ 
+        if (SceneManager.GetSceneByName(nextSceneName).isLoaded == false)
+        {
+            SceneManager.LoadScene(nextSceneName);
+        }
+        else
+        {
+            Debug.LogError("Сцена с именем " + nextSceneName + " не найдена или уже загружена!");
+        }
+    }
+    void LoadNextWinScene()
+    {
+        House.unfixed = 5;
+        if (SceneManager.GetSceneByName(nextSceneWinName).isLoaded == false)
+        {
+            SceneManager.LoadScene(nextSceneWinName);  
+        }
+        else
+        {
+            Debug.LogError("Сцена с именем " + nextSceneWinName + " не найдена или уже загружена!");
+        }
     }
 }

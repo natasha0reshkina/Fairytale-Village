@@ -275,6 +275,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8451490712337370006, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
+      propertyPath: m_Speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 9112880581149837587, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.64
@@ -9340,6 +9344,10 @@ PrefabInstance:
       propertyPath: money
       value: 
       objectReference: {fileID: 911730208, guid: c02aaf9f32c194a3f919fc9c8440855b, type: 3}
+    - target: {fileID: 8451490712337370006, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
+      propertyPath: m_Speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 9112880581149837587, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.67
@@ -9837,6 +9845,10 @@ PrefabInstance:
     - target: {fileID: 7391670198767534267, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451490712337370006, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
+      propertyPath: m_Speed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9112880581149837587, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11704,7 +11716,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 11
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -12691,6 +12703,10 @@ PrefabInstance:
     - target: {fileID: 7391670198767534267, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451490712337370006, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
+      propertyPath: m_Speed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9112880581149837587, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14327,6 +14343,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   decreaseRate: 5
+  nextSceneName: End Scene
+  nextSceneWinName: Win Scene
 --- !u!114 &2127845156
 MonoBehaviour:
   m_ObjectHideFlags: 0
