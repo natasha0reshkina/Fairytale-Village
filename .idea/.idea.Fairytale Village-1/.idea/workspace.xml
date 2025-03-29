@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавили сцены завершения и поправили логику между сценами&#10;Добавили смерть и победу персонажа">
+    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавила спрайт монетки около вывода общего счетам денег, а также поправлена логика обнуления монет при окончании игры">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraFollow.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,7 @@
       <workItem from="1742407027543" duration="23000" />
       <workItem from="1742408426266" duration="129000" />
       <workItem from="1742408803992" duration="9000" />
-      <workItem from="1742728682799" duration="45064000" />
+      <workItem from="1742728682799" duration="46171000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
@@ -240,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743178885203</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Добавила спрайт монетки около вывода общего счетам денег, а также поправлена логика обнуления монет при окончании игры">
+      <option name="closed" value="true" />
+      <created>1743261473912</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743261473912</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +288,8 @@
     <MESSAGE value="Добавили плавное движение камеры за персонажем и кнопку для починки дома" />
     <MESSAGE value="Добавлена шкала здоровья" />
     <MESSAGE value="Добавили сцены завершения и поправили логику между сценами&#10;Добавили смерть и победу персонажа" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавили сцены завершения и поправили логику между сценами&#10;Добавили смерть и победу персонажа" />
+    <MESSAGE value="Добавила спрайт монетки около вывода общего счетам денег, а также поправлена логика обнуления монет при окончании игры" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила спрайт монетки около вывода общего счетам денег, а также поправлена логика обнуления монет при окончании игры" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
