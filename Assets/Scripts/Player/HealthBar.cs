@@ -44,6 +44,7 @@ public class HealthBar : MonoBehaviour
     void LoadNextScene()
     {
         House.unfixed = 5;
+        Money.money = 0;
  
         if (SceneManager.GetSceneByName(nextSceneName).isLoaded == false)
         {
@@ -56,6 +57,7 @@ public class HealthBar : MonoBehaviour
     }
     void LoadNextWinScene()
     {
+        Money.money = 0;
         House.unfixed = 5;
         if (SceneManager.GetSceneByName(nextSceneWinName).isLoaded == false)
         {
