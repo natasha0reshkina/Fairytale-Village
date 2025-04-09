@@ -1,17 +1,16 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[SelectionBase]
+using UnityEngine.InputSystem;
+
 public class Player : MonoBehaviour
 {
     public static Player instance { get; private set; }
-
     [SerializeField] private float movingSpeed = 10f;
-
+    [SerializeField] private float enemyDamagePerSecond = 5f;
+    
     private Vector2 inputVector;
     private Vector2 lastMoveDirection;
-
     private Rigidbody2D rb;
     private float minMovingSpeed = 0.1f;
     private bool isRunning = false;
@@ -27,7 +26,7 @@ public class Player : MonoBehaviour
         GameInput.instance.OnPlayerAttack += GameInput_OnPlayerAttack;
     }
 
-    private void GameInput_OnPlayerAttack(object sender, EventArgs e)
+    private void GameInput_OnPlayerAttack(object sender, System.EventArgs e)
     {
         ActiveWeapon.Instance.GetActiveWeapon().Attack();
     }
@@ -48,19 +47,11 @@ public class Player : MonoBehaviour
         HandleMovement();
     }
     
-
     private void HandleMovement()
     {
         rb.MovePosition(rb.position + inputVector * (movingSpeed * Time.fixedDeltaTime));
 
-        if (Mathf.Abs(inputVector.x) > minMovingSpeed || Mathf.Abs(inputVector.y) > minMovingSpeed)
-        {
-            isRunning = true;
-        }
-        else
-        {
-            isRunning = false;
-        }
+        isRunning = Mathf.Abs(inputVector.x) > minMovingSpeed || Mathf.Abs(inputVector.y) > minMovingSpeed;
     }
 
     public bool IsRunning()
@@ -76,5 +67,13 @@ public class Player : MonoBehaviour
     public Vector2 GetMoveDirection()
     {
         return lastMoveDirection;
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            HealthBar.HP -= enemyDamagePerSecond * Time.deltaTime;
+        }
     }
 }
