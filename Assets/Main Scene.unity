@@ -241,7 +241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3378791604871743536, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: roamingTimerMax
-      value: 100
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_Name
@@ -1685,7 +1685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 780, y: 487}
+  m_AnchoredPosition: {x: 673, y: 495}
   m_SizeDelta: {x: 65, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &227357601
@@ -1998,7 +1998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 625, y: 487}
+  m_AnchoredPosition: {x: 422, y: 487}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &323606892
@@ -2440,7 +2440,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -175, y: -50}
+  m_AnchoredPosition: {x: -217, y: -50}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &430810413
@@ -9895,7 +9895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3378791604871743536, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: roamingTimerMax
-      value: 100
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_Name
@@ -10112,7 +10112,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 222, y: 486}
+  m_AnchoredPosition: {x: 39, y: 486}
   m_SizeDelta: {x: 450, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1578162624
@@ -12760,7 +12760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3378791604871743536, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: roamingTimerMax
-      value: 100
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_Name
@@ -14422,7 +14422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 222, y: 484}
+  m_AnchoredPosition: {x: 47, y: 484}
   m_SizeDelta: {x: 430, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127845155

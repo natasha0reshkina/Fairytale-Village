@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Финальная штрихи, поправки мелочей">
+    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавила выход из игры">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/End Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/End Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Win Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Win Scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/nataliiaoreshkina/Downloads/Fairytale Village-1/Assets/End Scene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyNav.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HouseFix/HouseRepairUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,6 +72,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/BuildForMacOs.app/Contents/MacOS/Fairytale Village" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BuildForMacOs.app/Contents/MacOS" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;$PROJECT_DIR$&quot; -debugCodeOptimization" />
@@ -142,7 +151,7 @@
       <workItem from="1742408803992" duration="9000" />
       <workItem from="1742728682799" duration="46171000" />
       <workItem from="1743262418720" duration="3612000" />
-      <workItem from="1743983765352" duration="5590000" />
+      <workItem from="1743983765352" duration="6686000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
@@ -272,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744206127447</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Добавила выход из игры">
+      <option name="closed" value="true" />
+      <created>1744215545688</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1744215545688</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +333,8 @@
     <MESSAGE value="Режим камеры поменяла на window camera" />
     <MESSAGE value="Добавила нанесение урона от врагов, если не наносить им удар" />
     <MESSAGE value="Финальная штрихи, поправки мелочей" />
-    <option name="LAST_COMMIT_MESSAGE" value="Финальная штрихи, поправки мелочей" />
+    <MESSAGE value="Добавила выход из игры" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила выход из игры" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
