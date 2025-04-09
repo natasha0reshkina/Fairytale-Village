@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Money
   - House
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -35,7 +35,6 @@ public class Player : MonoBehaviour
     {
         inputVector = GameInput.instance.GetMovementVector();
 
-        // Обновляем последнее направление, только если есть ввод
         if (inputVector != Vector2.zero)
         {
             lastMoveDirection = inputVector;

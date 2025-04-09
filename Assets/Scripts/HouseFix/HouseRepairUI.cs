@@ -7,7 +7,7 @@ public class HouseRepairUI : MonoBehaviour
 
     [SerializeField] private GameObject repairButtonObject;
     private Button repairButton;
-    private House currentHouse; // Дом, который необходимо починить
+    private House currentHouse; 
 
     private void Awake()
     {
@@ -21,7 +21,6 @@ public class HouseRepairUI : MonoBehaviour
         repairButtonObject.SetActive(false);
     }
 
-    // Вызывается, чтобы показать кнопку и сохранить ссылку на дом
     public static void ShowRepairButton(House house)
     {
         if (instance == null || instance.repairButtonObject == null)
@@ -39,7 +38,6 @@ public class HouseRepairUI : MonoBehaviour
         }
     }
 
-    // При нажатии на кнопку дом чинится
     private void OnRepairClicked()
     {
         if (Money.money >= 100 && currentHouse != null && currentHouse.IsBroken())

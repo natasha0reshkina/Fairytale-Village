@@ -14,13 +14,12 @@ public class House : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    // Метод для починки дома
     public void Fix()
     {
         if (spriteRenderer.sprite == brokenHouse && Money.money >= 100)
         {
-            Money.money -= 100; // списываем деньги
-            spriteRenderer.sprite = fixedHouse; // меняем спрайт на починенный
+            Money.money -= 100;
+            spriteRenderer.sprite = fixedHouse; 
             Debug.Log("Дом починен!");
             HealthBar.HP = HealthBar.MaxHealth;
             unfixed -= 1;

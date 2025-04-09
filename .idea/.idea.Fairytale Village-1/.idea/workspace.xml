@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавила нанесение урона от врагов, если не наносить им удар">
+      <change beforePath="$PROJECT_DIR$/Assets/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,7 @@
       <workItem from="1742408803992" duration="9000" />
       <workItem from="1742728682799" duration="46171000" />
       <workItem from="1743262418720" duration="3612000" />
-      <workItem from="1743983765352" duration="3110000" />
+      <workItem from="1743983765352" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
@@ -254,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743262467546</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Добавила нанесение урона от врагов, если не наносить им удар">
+      <option name="closed" value="true" />
+      <created>1744205378504</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744205378504</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +304,8 @@
     <MESSAGE value="Добавили сцены завершения и поправили логику между сценами&#10;Добавили смерть и победу персонажа" />
     <MESSAGE value="Добавила спрайт монетки около вывода общего счетам денег, а также поправлена логика обнуления монет при окончании игры" />
     <MESSAGE value="Режим камеры поменяла на window camera" />
-    <option name="LAST_COMMIT_MESSAGE" value="Режим камеры поменяла на window camera" />
+    <MESSAGE value="Добавила нанесение урона от врагов, если не наносить им удар" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила нанесение урона от врагов, если не наносить им удар" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -245,11 +245,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_Name
-      value: Enemy (3)
+      value: Enemy4
       objectReference: {fileID: 0}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7391670198767534267, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -1096,7 +1100,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (3)
+      value: Wood18
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_SortingOrder
@@ -1333,7 +1337,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (12)
+      value: Wood10
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -1814,7 +1818,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (4)
+      value: Wood1
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -2342,7 +2346,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (19)
+      value: Wood21
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_SortingOrder
@@ -3147,7 +3151,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (16)
+      value: Wood7
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -4069,7 +4073,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (22)
+      value: Wood17
       objectReference: {fileID: 0}
     - target: {fileID: 8015127097339934049, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4218,7 +4222,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (5)
+      value: Wood4
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -4425,7 +4429,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (17)
+      value: Wood6
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -4494,7 +4498,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (23)
+      value: Wood3
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -4647,7 +4651,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (20)
+      value: Wood20
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_SortingOrder
@@ -4967,7 +4971,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (18)
+      value: Wood22
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_SortingOrder
@@ -5745,7 +5749,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (9)
+      value: Wood12
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -6320,7 +6324,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (8)
+      value: Wood15
       objectReference: {fileID: 0}
     - target: {fileID: 8015127097339934049, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6721,7 +6725,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (10)
+      value: Wood11
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -6790,7 +6794,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (11)
+      value: Wood9
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -7904,7 +7908,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (13)
+      value: Wood5
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -9143,7 +9147,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (14)
+      value: Wood8
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Sprite
@@ -9385,6 +9389,10 @@ PrefabInstance:
       objectReference: {fileID: 1005078650, guid: 36e5a7cccc2a2f741983f91cd168c233, type: 3}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_Name
+      value: Enemy1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
+      propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5772306141043641031, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
@@ -9486,7 +9494,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (21)
+      value: Wood19
       objectReference: {fileID: 0}
     - target: {fileID: 2043627051844131908, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_SortingOrder
@@ -9891,11 +9899,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_Name
-      value: Enemy (2)
+      value: Enemy3
       objectReference: {fileID: 0}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7391670198767534267, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -11048,7 +11060,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (2)
+      value: Wood23
       objectReference: {fileID: 0}
     - target: {fileID: 8015127097339934049, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11934,7 +11946,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (1)
+      value: Wood13
       objectReference: {fileID: 0}
     - target: {fileID: 8015127097339934049, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12752,11 +12764,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_Name
-      value: Enemy (1)
+      value: Enemy2
       objectReference: {fileID: 0}
     - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259930167305126824, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7391670198767534267, guid: ebe1fcb3dca45634ebb2c26b88e39a69, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -13441,7 +13457,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (6)
+      value: Wood14
       objectReference: {fileID: 0}
     - target: {fileID: 8015127097339934049, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13728,7 +13744,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0 (7)
+      value: Wood16
       objectReference: {fileID: 0}
     - target: {fileID: 8015127097339934049, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14094,6 +14110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movingSpeed: 10
+  enemyDamagePerSecond: 5
 --- !u!4 &2105846335
 Transform:
   m_ObjectHideFlags: 0
@@ -14616,7 +14633,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 595548900541244944, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_Name
-      value: Pixel_Woods_Tileset_0
+      value: Wood2
       objectReference: {fileID: 0}
     - target: {fileID: 8015127097339934049, guid: 0afac3ba30915c74983c26504d0c9d74, type: 3}
       propertyPath: m_LocalPosition.x
