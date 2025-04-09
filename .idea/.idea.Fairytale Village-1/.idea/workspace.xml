@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Добавила нанесение урона от врагов, если не наносить им удар">
-      <change beforePath="$PROJECT_DIR$/Assets/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    <list default="true" id="00618cf3-2bcd-4033-91eb-767e0112901d" name="Changes" comment="Финальная штрихи, поправки мелочей">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fairytale Village-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +142,7 @@
       <workItem from="1742408803992" duration="9000" />
       <workItem from="1742728682799" duration="46171000" />
       <workItem from="1743262418720" duration="3612000" />
-      <workItem from="1743983765352" duration="3644000" />
+      <workItem from="1743983765352" duration="5590000" />
     </task>
     <task id="LOCAL-00001" summary="перешла на мак">
       <option name="closed" value="true" />
@@ -262,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744205378504</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Финальная штрихи, поправки мелочей">
+      <option name="closed" value="true" />
+      <created>1744206127447</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744206127447</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +315,8 @@
     <MESSAGE value="Добавила спрайт монетки около вывода общего счетам денег, а также поправлена логика обнуления монет при окончании игры" />
     <MESSAGE value="Режим камеры поменяла на window camera" />
     <MESSAGE value="Добавила нанесение урона от врагов, если не наносить им удар" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавила нанесение урона от врагов, если не наносить им удар" />
+    <MESSAGE value="Финальная штрихи, поправки мелочей" />
+    <option name="LAST_COMMIT_MESSAGE" value="Финальная штрихи, поправки мелочей" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

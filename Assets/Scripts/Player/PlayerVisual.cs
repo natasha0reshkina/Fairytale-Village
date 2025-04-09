@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class PlayerVisual : MonoBehaviour
@@ -24,18 +22,15 @@ public class PlayerVisual : MonoBehaviour
 
     private void AdjustPlayerFacingDirection()
     {
-  
         Vector2 moveDir = Player.instance.GetMoveDirection();
 
- 
         if (moveDir.x < 0)
         {
-            spriteRenderer.flipX = true;  
+            spriteRenderer.flipX = true;
         }
         else if (moveDir.x > 0)
         {
-            spriteRenderer.flipX = false; 
+            spriteRenderer.flipX = false;
         }
- 
     }
 }
